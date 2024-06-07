@@ -1,0 +1,49 @@
+/* .card{
+   
+    height: 600px;
+    width: 100%;
+    background: antiquewhite;
+} */
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.weather-body
+{
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+.input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background: transparent;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    border-color: black;
+}
+
+.button{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 150px;
+
+}
+.temperature{
+    font-size: 40px;
+    color: yellow;
+}
+.weather-data{
+    font-size: 30px;
+    color: rgb(241, 208, 123);
+
+}

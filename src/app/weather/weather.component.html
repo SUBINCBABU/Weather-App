@@ -1,0 +1,23 @@
+<div class="card" >
+    <img src="./assets/layout/images/weather bg.jpg" alt=""> 
+    <div class="weather-body">
+        <h1>weather</h1>
+        <form action="">
+            <input  class="input" type="text" name="name" placeholder="Enter A City  " [(ngModel)]="city"><br>
+            <button class="button" type="button" (click)="getWeather()">Get Weather</button>
+        </form>
+        <div *ngIf="weatherData"></div>
+        <h1>{{weatherData.name}}</h1>
+        <p class="temperature">Temperature:{{weatherData.main.temp}} K</p>
+        <div class="weather-data">
+            <p>Humidity : {{weatherData.main.humidity}}</p>
+            <p>Pressure : {{weatherData.main.pressure}}</p>
+           <p>Wind Speed : {{weatherData.wind.speed}}</p>
+        </div>
+    </div>
+    <div class="card">
+        <button type="button" (click)="getLatLon()">refresh</button>
+
+    </div>
+</div>
+
